@@ -1,0 +1,113 @@
+#bg{
+    background-color: white;
+    background-image: none;
+ }
+ .cartContainer{
+     width: 100%;
+     padding: 5%;
+     /* background-color: tomato; */
+ }
+ .cartContainer table{
+     width: 100%;
+     background-color: #F5F5F5;
+
+ }
+ .cartContainer th{
+     background-color: #cf8a8a;
+     /* width: 33%; */
+     padding: 1rem;
+     
+ }
+ .cartContainer .cartheading{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+.cartContainer .cartheading span{
+    display: block;
+    font-family: 'GilroyMedium';
+
+    /* width: 33%; */
+    /* background-color: #702a2a; */
+    
+}
+.cartelem{
+    /* background-color: #9eb98f; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+  
+}
+.cartelem .elem>img{
+    width: 80px;
+}
+.cartelem .elem:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+    align-items: center;
+    /* background-color: #b98f8f; */
+    /* width: 33%; */
+   
+}
+.cartelem .elem{
+    width: 33%;
+ text-align: center;  
+}
+
+
+ table tr td>img{
+     width: 60px;
+     border-radius: 1px;
+ }
+hr{
+  width: 90%;
+  margin: 0 auto;
+  background-color: grey;
+}
+#summary{
+    width: 40%;
+    min-height: 70%;
+    /* background-color: hotpink; */
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    /* padding:  2rem; */
+
+    /* padding: 0rem 2rem; */
+}
+#summary h2{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 1rem;
+}
+.item{
+    text-transform: uppercase;
+    padding:  2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(78, 78, 78);
+}
+.total{
+    font-size: 1.4rem;
+    font-family: 'GilroyMedium';
+
+}
+#summary button{
+    background-color: #EE3364;
+color: white;
+border: none;
+padding: .5rem;
+margin-top: 1.5rem;
+font-size: .8rem;
+width: 90%;
+height: 3.5rem;
+letter-spacing: 2px;
+font-family: 'GilroyBold';
+
+
+}
